@@ -31,4 +31,31 @@ This project involves cleaning and performing exploratory data analysis (EDA) on
 - **New Features**:
   - Created a new column `sales` by multiplying `Quantity` and `UnitPrice`.
 
+## Outcomes of EDA
+### 1.Data Cleaning:
+Removed duplicate rows to ensure data consistency.
+Handled missing values by dropping rows with critical missing data (e.g., InvoiceNo).
+Converted data types (e.g., InvoiceNo to integers) for proper analysis.
+Outlier Detection:
 
+Identified outliers in key numerical columns like Quantity and UnitPrice using the Interquartile Range (IQR) method.
+Visualized outliers using boxplots to understand their impact on the dataset.
+Feature Engineering:
+
+Created a new column sales by multiplying Quantity and UnitPrice to analyze revenue generated per transaction.
+Descriptive Statistics:
+
+Generated summary statistics for numerical columns to understand the central tendency, spread, and distribution of the data.
+Analyzed the shape and structure of the dataset.
+Insights from Visualizations:
+
+Used boxplots to visualize the distribution of Quantity and UnitPrice.
+Counted the occurrences of unique values in categorical columns like Description and Country to identify popular products and customer demographics.
+Dataset Preparation:
+
+Cleaned and prepared the dataset for further analysis or modeling by ensuring data consistency, removing outliers, and handling missing values.
+
+### 2.Key Insights
+Identified products with unusually high or low quantities and prices.
+Highlighted countries with the most transactions, providing insights into customer demographics.
+Prepared the dataset for revenue analysis by creating the sales column.
